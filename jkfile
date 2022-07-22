@@ -8,4 +8,14 @@ pipeline {
 			}
 		}
 }
+		stage('Build') {
+			steps {
+				echo'Building Sample Maven project'
+		}
+	}
+		stage('Deploy') {
+			steps {
+				echo 'Deploying in staging area
+		}
+	}
 }
