@@ -10,7 +10,7 @@ pipeline {
 }
 		stage('Build') {
 			steps {
-				echo'Building Sample Maven project'
+				echo 'Building Sample Maven project'
 		}
 	}
 		stage('Deploy') {
